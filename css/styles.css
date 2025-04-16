@@ -13,7 +13,7 @@
   --dairy: #fcfcfc;
 }
 body {
-  font-family: 'Roboto', 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #fff;
 }
@@ -37,21 +37,23 @@ button {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
 }
 .logo-link:hover,
-.logo-link:focus {
-  color: #4d5ae5;
+.logo-link:focus,
+.logo-part:hover,
+.logo-part:focus {
+  color: #31d0aa;
 }
 .logo-link:active,
 .nav-links:active {
   text-decoration: underline;
 }
 .logo-part {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 .nav-list {
@@ -71,6 +73,7 @@ button {
 }
 
 .adress-nav {
+  font-style: normal;
 }
 .adress-list {
 }
@@ -93,12 +96,13 @@ button {
 }
 .hero-title {
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
 }
 .order-service {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -108,6 +112,7 @@ button {
 }
 .order-service:hover,
 .order-service:focus {
+  font-family: inherit;
   background-color: #404bbf;
   font-weight: 500;
   font-size: 16px;
@@ -139,10 +144,12 @@ button {
 
 /* #region Our Team */
 .team {
+  background-color: #f4f4fd;
 }
 .team-title {
+  text-transform: capitalize;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
@@ -150,6 +157,7 @@ button {
 .team-list {
 }
 .team-item {
+  background-color: #ffffff;
 }
 .team-photo-item {
 }
@@ -198,13 +206,22 @@ button {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f4f4fd;
+  color: #4d5ae5;
+}
+.footer-logo-link:hover,
+.footer-logo-link:focus,
+.footer-logo-part:hover,
+.footer-logo-part:focus {
+  color: #31d0aa;
 }
 .footer-logo-link:active {
   text-decoration: underline;
+}
+.footer-logo-part {
+  color: #f4f4fd;
 }
 .page-footer-text {
   font-size: 16px;
